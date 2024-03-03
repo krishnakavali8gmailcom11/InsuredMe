@@ -28,14 +28,7 @@ module.exports = {
       algorithm: "HS256",
       expiresIn: "3h",
     },
-    emailTokenInfo: {
-      secretKey:
-        "C094434C7F4F7893C24C7E098CB3C0E91310A2B688372F3DA986D14BAF6B1BDQ",
-      issuer: "QEPP",
-      audience: "localhost:8080",
-      algorithm: "HS256",
-      expiresIn: "1h",
-    },
+    
     mobileTokenInfo: {
       secretKey:
         "929FFGG453ERYUI456JKL00KIL42001926589GFGJKDHJJSBJ65568BBHHFSJS90",
@@ -52,46 +45,17 @@ module.exports = {
       algorithm: "HS256",
       expiresIn: "1h",
     },
-    emailServiceInfo: {
-      senderEmail:
-        "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",
-      senderPassword: " IDontKnow1@",
-      service: "SendGrid",
-    },
+ 
     bcrypt: {
       saltValue: 8,
     },
     crypto: {
       secretKey: "YourSecretKeyForEncryption&Descryption",
     },
-    aws: {
-      accessKeyId: "AKIAUGBVTP5AGYZXDB7E",
   
-      secretAccessKey: "xjOSipDmqTuzxyf0ehAK+BRLBtKlGWCJIvQ6DjWf",
   
-      region: "ap-south-1",
+ 
   
-      s3Bucket: "processplaybook",
-  
-      // s3AvatarBucket: "fetch-avatar",
-    },
-    // aws: {
-    //   accessKeyId: "AKIATPRA4XASNPBJ24ET",
-    //   secretAccessKey: "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",
-    //   region: "us-east-1",
-    //   s3Bucket: "fetch-delivery",
-    //   s3AvatarBucket: "fetch-avatar",
-    // },
-    socialLogin: {
-      google_client_id:
-        "824295631640-ps25i8isn47ckmerqibcq0ftik3c8v7n.apps.googleusercontent.com",
-      facebook_client_id: "1011221082611310",
-      facebook_client_secret: "5ade930469d741507e4096196263d7d9",
-    },
-    /*stripe: {
-        secretKey: 'sk_live_Pk58DPcqiyyvkYlgiUYR865G00Dk87YQb5',
-        webhook_secret: 'whsec_Q7PFF9QbZxMnvYvLCSR7qUe0grmJslnu'
-      },*/
     upload_path: "public/uploads",
     /**
      * Payumoney setup
